@@ -21,7 +21,7 @@ const agents = [
   },
 ];
 
-const statusStyles = {
+const statusStyles: Record<string, string> = {
   Running: "bg-emerald-500/20 text-emerald-300",
   Paused: "bg-amber-500/20 text-amber-300",
 };

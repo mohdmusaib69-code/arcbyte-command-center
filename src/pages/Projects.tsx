@@ -23,7 +23,7 @@ const projects = [
   },
 ];
 
-const statusClasses = {
+const statusClasses: Record<string, string> = {
   Completed: "bg-emerald-500/20 text-emerald-300",
   Active: "bg-sky-500/20 text-sky-300",
   "In Progress": "bg-amber-500/20 text-amber-300",
